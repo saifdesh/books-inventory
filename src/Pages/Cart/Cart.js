@@ -4,7 +4,7 @@ import './Cart.css';
 const Cart = ({ cart, handleRemoveFromcart }) => {
     return (
         <div className='cart'>
-            <h2>Item Slected: {cart.length}</h2>
+            <h6>Item Slected: {cart.length}</h6>
 
             {
                 cart.map(book => <p>{book.name}

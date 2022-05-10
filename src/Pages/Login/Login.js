@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Login.css';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     return (
@@ -27,6 +28,7 @@ const Login = () => {
                         </Button>
                     </Form>
                     For New user <Link className='form-link' to='/registration'>Plz create an account</Link>
+                    <SocialLogin></SocialLogin>
 
 
 
