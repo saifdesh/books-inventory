@@ -1,8 +1,10 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
 import './Login.css';
-import SocialLogin from './SocialLogin/SocialLogin';
+
+
 
 const Login = () => {
     return (
@@ -28,20 +30,21 @@ const Login = () => {
                         </Button>
                     </Form>
                     For New user <Link className='form-link' to='/registration'>Plz create an account</Link>
-                    <SocialLogin></SocialLogin>
+
 
 
 
 
                 </div>
-                {/* <h1> OR</h1>
+                <h1> OR</h1>
 
-                <div>
+                {/* <div>
                     <Button className='form-submit' onClick={handleGoogleSignIn}>
-                        <img src={img} /> Google sign in</Button>
+                        <img src={logo} /> Google sign in</Button>
                 </div> */}
 
             </div>
+
 
 
 

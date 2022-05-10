@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import SocialLogin from '../Login/SocialLogin/SocialLogin';
+
 import './Registration.css';
 
 const Registration = () => {
@@ -32,7 +32,7 @@ const Registration = () => {
                     </Button>
                 </Form>
                 Already Have an account?  <Link className='form-link' to='/login'>Plz Login</Link>
-                <SocialLogin></SocialLogin>
+
 
 
 
